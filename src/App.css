@@ -1,7 +1,11 @@
 .App {
   text-align: center;
 }
-
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +39,53 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.responsive-div {
+  height: 200px;
+  background-color: #4caf50;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  transition: width 0.3s ease;
+}
+
+.width-display {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.border-container{
+  /* border: 1px solid grey; */
+  border-radius:10px;
+  padding:10px;
+  background-color: rgba(169, 176, 177, 0.251);
+  height:90vh
+}
+.container-heading{
+  padding:15px 0px;
+  color:gray
+
+}
+.card-actions{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
