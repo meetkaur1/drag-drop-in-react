@@ -1,13 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import DragAndDropMain from "./draganddroptask/DragAndDropMain";
+import DndParent from "./drag-and-drop/DndParent";
 
 function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<DragAndDropMain />} />
+        <Route path="/" element={<DndParent />} />
       </Routes>
     </>
   );
